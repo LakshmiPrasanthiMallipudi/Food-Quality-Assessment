@@ -72,6 +72,8 @@ Sample_Submission.xlsx – 49148 rows × 7 columns
 
 #Algorithms:
 
+RANDOM FOREST
+K NEAREST NEIGHBOURS(KNN) Algorithm
 
 
 
