@@ -12,38 +12,62 @@ Build a predictive model that is capable of predicting the outcome of an inspect
 
 #Features:
 
-ID: A unique id for each inspection
-Date: The date at which the inspection was done in a particular facility
-LicenseNo: De-identified license number for a particular facility
-FacilityID: De-identified unique facility id  for a facility
-FacilityName: The encoded name of a facility
-Type: The type of the facility being inspected
-Street: The encoded street where the facility is located
-City: The encoded city where the facility is located
-State: The encoded state where the facility is located
+ID: A unique id for each inspection.
+
+Date: The date at which the inspection was done in a particular facility.
+
+LicenseNo: De-identified license number for a particular facility.
+
+FacilityID: De-identified unique facility id  for a facility.
+
+FacilityName: The encoded name of a facility.
+
+Type: The type of the facility being inspected.
+
+Street: The encoded street where the facility is located.
+
+City: The encoded city where the facility is located.
+
+State: The encoded state where the facility is located.
+
 LocationID: An encoded location feature.
-Reason: The primary reason for the inspection
-SectionViolations: Laws violated by the facility
+
+Reason: The primary reason for the inspection.
+
+SectionViolations: Laws violated by the facility.
+
 RiskLevel: The level of risk the facility possesses to the consumers.
-Geo_Loc: De-identified geo location of the facility
-Inspection_Results: The result of the inspection
+
+Geo_Loc: De-identified geo location of the facility.
+
+Inspection_Results: The result of the inspection.
+
 
 #Target:
 
 The inspection results can have any of the following values -
+
 0:’FACILITY CHANGED’
+
 1:’FAIL’
-2:’FURTHER INSPECTION REQUIRED’,
+
+2:’FURTHER INSPECTION REQUIRED’
+
 3:’INSPECTION OVERRULED’
+
 4:’PASS’
+
 5:’PASS(CONDITIONAL)’
+
 6:’SHUT-DOWN’
 
 
 #Data Sets:
 
 Data_Train.xlsx – 147443 rows × 15 columns
+
 Data_Test.xlsx – 49148 rows × 14 columns
+
 Sample_Submission.xlsx – 49148 rows × 7 columns
 
 #Algorithms:
