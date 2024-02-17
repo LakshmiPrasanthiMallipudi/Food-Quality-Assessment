@@ -64,15 +64,16 @@ The inspection results can have any of the following values -
 
 #Data Sets:
 
-Data_Train.xlsx – 147443 rows × 15 columns
+Data_Train.csv – 147443 rows × 15 columns
 
-Data_Test.xlsx – 49148 rows × 14 columns
+Data_Test.csv – 49148 rows × 14 columns
 
-Sample_Submission.xlsx – 49148 rows × 7 columns
+Sample_Submission.csv – 49148 rows × 7 columns
 
 #Algorithms:
 
 RANDOM FOREST
+
 K NEAREST NEIGHBOURS(KNN) Algorithm
 
 
